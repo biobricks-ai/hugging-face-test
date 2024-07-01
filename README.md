@@ -67,7 +67,7 @@
 | Toxrefdb | | https://github.com/biobricks-ai/toxrefdb | | |
 | Echemportal | Reports and datasets by chemical name and number, chemical property, and GHS classification | https://github.com/biobricks-ai/echemportal | | |
 | Chemblrdf | ChEMBL is a manually curated database of bioactive molecules with drug-like properties | https://github.com/biobricks-ai/chemblrdf | | |
-| Medgen | Organizes information related to human medical genetics, such as attributes of conditions with a genetic contribution  | https://github.com/biobricks-ai/medgen | |
+| Medgen | Organizes information related to human medical genetics, such as attributes of conditions with a genetic contribution  | https://github.com/biobricks-ai/medgen | | |
 | RTECS | The RTECS (Registry of Toxic Effects of Chemical Substances) database is a comprehensive resource that provides toxicological informatio | https://github.com/biobricks-ai/rtecs | | |
 | Ecotox | Single chemical environmental toxicity data for aquatic life, terrestrial plants and wildlife | https://github.com/biobricks-ai/ecotox | | |
 | Moleculenet | | https://github.com/biobricks-ai/moleculenet | | |
