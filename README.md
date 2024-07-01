@@ -14,7 +14,7 @@
      _)(  )(_
     `---''---`
 ```
-# BioBricks Inventory
+# Bricks
 
 | Brick | Description | Link | Type | Size |
 | ----- | ----------- | ---- | ---- | ---- |
