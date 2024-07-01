@@ -19,7 +19,7 @@
 | Brick | Description | Link | Type | Size |
 | ----- | ----------- | ---- | ---- | ---- |
 | Chemprop | BioSim model with Conditional Variational Autoencoder |https://github.com/biobricks-ai/chemprop-transformer| SQLite | |
-| CTD Base | CTD is a robust, publicly available database that aims to advance understanding about how environmental exposures affect human health | https://github.com/biobricks-ai/ctdbase| Parquet | |
+| CTD Base | CTD is a robust, publicly available database that aims to advance understanding about how environmental exposures affect human health | https://github.com/biobricks-ai/ctdbase | Parquet | |
 | String Database | STRING is a database of known and predicted protein-protein interactions | https://github.com/biobricks-ai/stringdb | Parquet, GZip | |
 | SEMQl | SemSQL: standard SQL views for RDF/OWL ontologies This project provides a standard collection of SQL tables/views for ontologies | https://github.com/biobricks-ai/semsql | XXXXX | |
 | CosIng | CosIng is the European Commission's database detailing cosmetic substances and ingredients, complying with EU regulations | https://github.com/biobricks-ai/cosing-kg | | |
