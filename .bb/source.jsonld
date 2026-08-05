@@ -1,0 +1,51 @@
+{
+  "@context": "../../context/source.context.jsonld",
+  "@type": "dcat:Dataset",
+  "@id": "https://biobricks.ai/bricks/public-biobricks-agent",
+  "dcterms:title": "Public BioBricks Chat AI - brick catalog / agent index",
+  "dcterms:description": "A BioBricks repository named 'public-biobricks-agent' ('Public Biobricks Chat AI'). It is NOT a data brick: the on-disk repository contains only a README.md (an ASCII banner plus a Markdown table cataloguing other biobricks-ai bricks and their upstream GitHub links) with no dvc.yaml, no stages/, no download/ or brick/ data outputs, no .bb/source.jsonld, and no LICENSE file. It functions as an index/agent pointing at other bricks (Chemprop, CTD, STRING, ChEMBL, PubChem, PubMed, etc.) rather than packaging any redistributable dataset of its own.",
+  "dcterms:license": {
+    "@id": "https://github.com/biobricks-ai/public-biobricks-agent",
+    "dcterms:title": "No LICENSE file present in the repository; license UNSTATED"
+  },
+  "dcterms:publisher": "biobricks-ai (GitHub organization)",
+  "dcterms:identifier": "https://github.com/biobricks-ai/public-biobricks-agent",
+  "biobricks:licenseName": "UNSTATED (no LICENSE file; catalog README only)",
+  "biobricks:licenseClass": "unknown",
+  "biobricks:merckCommercialUse": "prohibited",
+  "biobricks:licenseEvidence": [
+    {
+      "source": "/mnt/raid2/biobricks/public-biobricks-agent (repo contents; git ls-files)",
+      "quote": "The repository tracks a single file, README.md, with no LICENSE, no dvc.yaml, no stages/, and no data outputs. git log shows one commit: 'Update README.md'.",
+      "confidence": "high"
+    },
+    {
+      "source": "README.md",
+      "quote": "Public Biobricks Chat AI ... # Bricks | Brick | Description | Link | Type | Size | ... a table listing other biobricks-ai repositories and their descriptions.",
+      "confidence": "high"
+    }
+  ],
+  "biobricks:reviewed": false,
+  "biobricks:reviewNotes": "Determined by the annotation agent (Claude, slice items[1350:1356]). This repository is not a redistributable dataset; it is a catalog/agent index whose only tracked content is a README.md listing other biobricks-ai bricks. There is no LICENSE file, no upstream data download, and no license statement anywhere in the repo, so both the license and any redistribution right are UNSTATED and classed unknown. Commercial use is marked prohibited conservatively because no redistribution right is granted. HUMAN REVIEW REQUIRED: decide whether this repo should even carry a data-source manifest (it packages no data); if it is meant to be published, the biobricks-ai org should add an explicit code/content license. The individual bricks it references each carry their own separate licenses.",
+  "prov:wasDerivedFrom": [
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://github.com/biobricks-ai/public-biobricks-agent",
+      "dcterms:title": "public-biobricks-agent repository (README brick catalog)",
+      "dcterms:license": {
+        "@id": "https://github.com/biobricks-ai/public-biobricks-agent",
+        "dcterms:title": "No LICENSE file present; license UNSTATED"
+      },
+      "dcat:landingPage": "https://github.com/biobricks-ai/public-biobricks-agent",
+      "dcterms:publisher": "biobricks-ai (GitHub organization)"
+    }
+  ],
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "prov:wasAssociatedWith": "BioBricks licensing-provenance annotation agent (Claude, slice items[1350:1356])",
+    "prov:endedAtTime": {
+      "@type": "xsd:dateTime",
+      "@value": "2026-08-05T00:00:00Z"
+    }
+  }
+}
